@@ -1,0 +1,37 @@
+<aiml version="2.0">
+    <!-- Greetings -->
+    <category>
+        <pattern>HI</pattern>
+        <template>Hello! How can I assist you today?</template>
+    </category>
+
+    <!-- Planning a trip to a specific destination -->
+    <category>
+        <pattern>IM PLANNING A TRIP TO *</pattern>
+        <template>Let me check. Currently, it's sunny with temperatures around 25°C (77°F). How else can I assist you?</template>
+    </category>
+
+    <!-- Inquiries about transportation options -->
+    <category>
+        <pattern>HOW CAN I GET FROM THE AIRPORT TO DOWNTOWN *</pattern>
+        <template>You can take the airport train or a taxi for a convenient ride to the city center. Is there anything else you'd like to know?</template>
+    </category>
+
+    <!-- Recommendations for must-visit attractions -->
+    <category>
+        <pattern>CAN YOU RECOMMEND ANY MUST VISIT ATTRACTIONS IN *</pattern>
+        <template>Absolutely! Don't miss the Sydney Opera House, Bondi Beach, and the Sydney Harbour Bridge. What else would you like to know about Sydney?</template>
+    </category>
+
+    <!-- Best time to visit -->
+    <category>
+        <pattern>WHATS THE BEST TIME OF YEAR TO VISIT *</pattern>
+        <template>Spring (September to November) and autumn (March to May) offer pleasant weather and fewer crowds. Is there anything else I can assist you with?</template>
+    </category>
+
+    <!-- Closing -->
+    <category>
+        <pattern>THANKS FOR THE HELP</pattern>
+        <template>You're welcome! If you have any more questions, feel free to ask. Have a fantastic trip!</template>
+    </category>
+</aiml>
